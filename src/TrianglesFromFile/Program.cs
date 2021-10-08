@@ -45,7 +45,7 @@ namespace TrianglesFromFile
 
         static void PrintHeaderMessage()
         {
-            Console.WriteLine("Calculation to triangle areas and to find out the biggest one");
+            Console.WriteLine("Calculates triangles area and find out the biggest one");
             Console.WriteLine("");
 
         }
