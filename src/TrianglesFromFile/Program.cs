@@ -71,12 +71,6 @@ namespace TrianglesFromFile
             return triangles;
         }
 
-        static int HowManyTriangles()
-        {
-            Console.Write("Enter the number of triangles to calculate the area: ");
-            return int.Parse(Console.ReadLine());
-        }
-
         static void CalculateArea(List<Triangle> triangles, out double biggestArea)
         {
             biggestArea = 0.0;
